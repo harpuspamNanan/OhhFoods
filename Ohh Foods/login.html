@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Login</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    
+    <style type="text/css">
+      @media (min-width: 992px) {}
+
+      .card {
+          height: 100%;
+      }
+
+      .cart-item-count {
+          position: relative;
+      }
+
+      .cesta-feira__num-items {
+          position: absolute;
+          width: 25px;
+          height: 25px;
+          border-radius: 50%;
+          background: #fff;
+          color: #000;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          top: -2px;
+          right: -12px;
+          font-size: 12px;
+          font-weight: bold;
+      }
+
+
+      ul.topnav {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #f9f9f9;
+      }
+
+      ul.topnav li {
+          float: left;
+      }
+
+      ul.topnav li a {
+          display: block;
+          color: black;
+          text-align: center;
+          padding: 4px 6px;
+          text-decoration: none;
+      }
+
+      ul.topnav li a:hover:not(.active) {
+          background-color: #d4c1c1;
+      }
+
+      #ohh {
+          font-size: 22px;
+      }
+
+      ul.topnav li.right {
+          float: right;
+      }
+
+      @media screen and (max-width: 600px) {
+
+          ul.topnav li.right,
+          ul.topnav li {
+              float: none;
+          }
+      }
+  </style>
+        
+</head>
+
+<body>
+
+  <!-- navigation section -->
+  <div>
+      <ul class="topnav">
+          <li><a id="ohh" href="index.html" style="padding: 30px">Ohh Food!</a></li>
+          <li class="right"><a href="login.html" style="padding: 37px">Login</a></li>
+          <li class="right"><a href="Register.html" style="padding: 37px">Register</a></li>
+          <li class="right"><a href="example/products.html" style="padding: 37px">Restaurants</a></li>
+      </ul>
+  </div>
+
+    <div class="container">
+        <div class="row text-center pt-50">
+          <div class="col-11 col-sm-10 col-md-8 mx-auto">
+            <div class="card card-signin my-5 align-items-center">
+              <div class="card-body">
+                <h5 class="card-title text-center">Sign In</h5>
+                <form class="form-signin" action="index.html">
+                  <div class="form-label-group">
+                    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                    <label for="inputEmail">Email address</label>
+                  </div>
+    
+                  <div class="form-label-group">
+                    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                    <label for="inputPassword">Password</label>
+                  </div>
+    
+                  <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Remember password</label>                    
+                  </div>
+                  <div class="col-12 form-group">
+                      <div class="g-recaptcha" data-sitekey="6LedU7IUAAAAAFU0ir09NRR4qTGPpx0Zo3L6VeFu"></div>
+                  </div>
+                  <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign in</button>
+                  <hr class="my-4">
+                  <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Sign in with Google</button>
+                  <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Sign in with Facebook</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- JAVASCRIPT JS FILES -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.8.2/css/all.css"></script>    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
